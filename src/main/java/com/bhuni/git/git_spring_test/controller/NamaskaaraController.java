@@ -8,7 +8,7 @@ import com.bhuni.git.git_spring_test.service.NamaskaaraService;
 
 
 @RequestMapping("namaskaara")
-public class NamaskaaraGreeting {
+public class NamaskaaraController {
 	@Autowired
 	private NamaskaaraService namaskaaraService;
 	
